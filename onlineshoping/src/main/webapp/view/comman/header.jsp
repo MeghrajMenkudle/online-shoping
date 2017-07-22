@@ -14,7 +14,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li id="productListId">
-                        <a href="/onlineshoping/productList">Product List</a>
+                        <a href="/onlineshoping/show/all/products">Product List</a>
                     </li>
                     <li id="aboutUsId">
                         <a href="/onlineshoping/about">About Us</a>

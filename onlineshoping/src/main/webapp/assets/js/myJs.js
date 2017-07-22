@@ -15,6 +15,7 @@ $(function(){
 		
 	default:
 		$('#homeId').addClass('active');
+		$('#a_'+menu).addClass('active');
 		break;
 	}
 });

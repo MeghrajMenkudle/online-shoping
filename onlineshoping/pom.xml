@@ -9,6 +9,15 @@
 	<url>http://maven.apache.org</url>
 
 	<dependencies>
+
+		<!-- addding dependencies of backend of online shopping projects -->
+
+		<dependency>
+			<groupId>onlineshopingid</groupId>
+			<artifactId>onlineshoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- JUnit dependency -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -31,7 +40,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>4.3.9.RELEASE</version>
 		</dependency>
-		
+
 		<!-- jsp jstl tag librrary dependancy -->
 		<dependency>
 			<groupId>jstl</groupId>

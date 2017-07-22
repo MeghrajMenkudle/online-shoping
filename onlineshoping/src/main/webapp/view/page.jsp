@@ -55,6 +55,12 @@
 		<c:if test="${isUserClickAbout == true}">
 			<%@include file="about.jsp"%>
 		</c:if>
+		
+		<c:if test="${isUserClickAllProducts == true or isUserClickCategoryProducts == true}">
+			<%@include file="listProduct.jsp"%>
+		</c:if>
+		
+		
 
 		<!-- footer -->
 		<%@include file="./comman/footer.jsp"%>
